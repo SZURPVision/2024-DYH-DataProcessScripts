@@ -1,3 +1,7 @@
+"""
+这份脚本用来查看标准矩形框并检查数据集是否有脏数据,按下d键可以将脏数据移动到某个文件夹
+适用于雷达数字识别
+"""
 import os
 import shutil
 
@@ -9,6 +13,7 @@ image_dir = r"C:\radar\NumberArmorNo0\train\images"
 label_dir = r"C:\radar\NumberArmorNo0\train\labels"
 # image_dir = r'C:\radar\NumberArmorNo0\test\img'
 # label_dir = r'C:\radar\NumberArmorNo0\test\label'
+
 
 # 获取所有图像文件
 image_files = [
